@@ -1,0 +1,50 @@
+
+.answers {
+	text-align: center;
+}
+.question-container {
+	text-align: center;
+	display: none;
+}
+.answers h6:hover {
+	color: blue;
+	cursor: pointer;
+}
+
+.start-button {
+	text-align: center;
+}
+
+.start-button span {
+	background: red;
+}
+
+.start-button span:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+.title {
+	text-align: center;
+}
+
+.final-counter {
+	list-style: none;
+	text-align: center;
+}
+
+.show-final-results {
+	display: none;
+}
+
+.show-final-results button.start-over {
+	background: red;
+}
+.show-final-results button.start-over:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+.gif-holder {
+	text-align: center;
+}

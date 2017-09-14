@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 5</title>
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./assets/app.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="trivia-body col-lg-10 col-lg-offset-1" style="background: yellow;">
+				<h1 class="main-text" style="text-align: center;">TOTALLY TRIVAL TRIVA!!</h1>
+				<div class="main-view">
+					<div class="start">
+						<h4 class="start-button">
+							<span>Start</span>
+						</h4>
+					</div>
+					<div class="question-container">
+						<h4 class="time">Time Remaining <span class="seconds"></span></h4>
+						<h4 class="question"></h4>
+						<div class="answers">
+							<h6 id="one"></h6>
+							<h6 id="two"></h6>
+							<h6 id="three"></h6>
+							<h6 id="four"></h6>
+						</div>
+					</div>
+					<div class="show-result">
+						<h2 class="title"></h2>
+						<div class="gif-holder"></div>
+					</div>
+					<div class="show-final-results">
+						<h2 class="title">All done, here's how you did!</h2>
+						<ul class="final-counter">
+							<li class="correct">
+								Correct answers: <span class="score"></span>
+							</li>
+							<li class="incorrect">
+								Incorrect answers: <span class="score"></span>
+							</li>
+							<li class="unanswered">
+								Unanswered: <span class="score"></span>
+							</li>
+						</ul>
+						<button class="start-over">Start over?</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
