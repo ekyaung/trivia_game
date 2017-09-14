@@ -2,15 +2,15 @@ $(document).ready(function() {
 
 	var questions = [
 		{
-			question: 'What is the name of Taylor Swift\'s cats?',
+			question: 'Who is Homer Simpson\'s wife?',
 			answers: [
-				'Yangi/Gato',
-				'Olivia/X',
-				'Kevin',
-				'Eileen'
+				'Delilah',
+				'Marge',
+				'Tulip',
+				'Merge'
 			],
 			correctAnswer: 1,
-			gifSource: "http://www.hilariousgifs.com/i/tZOS8.gif"
+			gifSource: "https://media.giphy.com/media/11mTYesz11OGxW/giphy.gif"
 		},
 		{
 			question: 'Who is bart simpson\'s dad?',
@@ -24,26 +24,26 @@ $(document).ready(function() {
 			gifSource: "http://www.hilariousgifs.com/i/tZOS8.gif"
 		},
 		{
-			question: 'How many feet in a mile?',
+			question: 'What is the name of the clown on the show?',
 			answers: [
-				'1028',
-				'1004',
-				'5028',
-				'30'
+				'Rusty',
+				'Rick',
+				'Krusty',
+				'Krispy'
 			],
 			correctAnswer: 2,
-			gifSource: "http://www.hilariousgifs.com/i/tZOS8.gif"
+			gifSource: "https://media.giphy.com/media/l0G18RV0eml3kyRFK/giphy.gif"
 		},
 		{
-			question: 'How many inches in a foot?',
+			question: 'How many people are in their family?',
 			answers: [
-				'12',
-				'11',
-				'10',
-				'9'
+				'5',
+				'4',
+				'6',
+				'1'
 			],
 			correctAnswer: 0,
-			gifSource: "http://www.hilariousgifs.com/i/tZOS8.gif"
+			gifSource: "https://media.giphy.com/media/3o6MbbEk9CaoQSbA3K/giphy.gif"
 		}
 	];
 	var finalQuestionCount = questions.length - 1; // 0-indexed
@@ -132,7 +132,7 @@ $(document).ready(function() {
 			}
 			questionCount++;
 			startQuestion();
-		}, 1000);
+		}, 2000);
 	}
 
 	var showFinalResults = function() {

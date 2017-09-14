@@ -1,3 +1,13 @@
+body{
+	background: url("../images/background.jpg");
+	font-family: 'Anton', sans-serif;
+}
+.trivia-body{
+	background: #ffcc00;
+}
+.main-text {
+	text-align: center;
+}
 
 .answers {
 	text-align: center;
@@ -6,7 +16,7 @@
 	text-align: center;
 	display: none;
 }
-.answers h6:hover {
+.answers h5:hover {
 	color: blue;
 	cursor: pointer;
 }
@@ -16,12 +26,12 @@
 }
 
 .start-button span {
-	background: red;
+	background: #ffb3b3;
 }
 
 .start-button span:hover {
 	cursor: pointer;
-	color: blue;
+	color: red;
 }
 
 .title {
@@ -42,7 +52,7 @@
 }
 .show-final-results button.start-over:hover {
 	cursor: pointer;
-	color: blue;
+	color: black;
 }
 
 .gif-holder {
