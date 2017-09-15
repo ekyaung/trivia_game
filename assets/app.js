@@ -132,7 +132,7 @@ $(document).ready(function() {
 			}
 			questionCount++;
 			startQuestion();
-		}, 2000);
+		}, 2500);
 	}
 
 	var showFinalResults = function() {
